@@ -32,8 +32,8 @@ body {
 .progress {
     background-color: hsl(228, 56%, 26%);
     margin: 0 20px;
-    height: 25vh;
-    padding: 20px;
+    /* height: vh; */
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.14);
 }
@@ -65,7 +65,7 @@ body {
     position: relative;
     min-width: 45%;
     height: 20vh;
-    margin-top: 2.3em;
+    margin-top: 4.75em;
     padding: 2em;
 }
 
@@ -76,7 +76,7 @@ body {
 .tooltip {
     position: absolute;
     z-index: 9999;
-    top: -20px;
+    top: -40px;
     left: 70%;
 }
 
